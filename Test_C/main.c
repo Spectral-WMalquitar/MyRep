@@ -10,12 +10,12 @@
 
 int main(int argc, const char * argv[]) {
     
-    int x = 0;
+    int x;
     
     printf("Hello, please enter a number: ");
     scanf("%d", &x);
     
-    printf("The value entered is %d", x);
+    printf("The value entered is %d\n", x);
     printf("Hello, World!\n");
     return 0;
 }
